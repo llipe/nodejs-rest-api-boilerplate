@@ -1,0 +1,41 @@
+{
+  "name": "nodejs-rest-api-boilerplate",
+  "version": "0.0.1",
+  "description": "Base structure to build REST APIs using node + express + sequelize as an ORM.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "nodemon index.js | npx pino-pretty",
+    "start-prod": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/llipe/nodejs-rest-api-boilerplate.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "sequelize",
+    "boilerplate",
+    "template"
+  ],
+  "author": "Felipe Mallea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/llipe/nodejs-rest-api-boilerplate/issues"
+  },
+  "homepage": "https://github.com/llipe/nodejs-rest-api-boilerplate#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "sequelize-cli": "^6.6.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.1.3",
+    "express": "^4.18.2",
+    "pg": "^8.11.0",
+    "pg-hstore": "^2.3.4",
+    "pino": "^8.14.1",
+    "pino-pretty": "^10.0.0",
+    "sequelize": "^6.32.0"
+  }
+}
