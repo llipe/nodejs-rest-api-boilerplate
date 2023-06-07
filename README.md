@@ -10,8 +10,20 @@ Base structure to build REST APIs using node + express + sequelize as an ORM.
 ## Folder structure ##
 
 * root
-* * config
-* * controllers
-* * models
-* * routes
-* * utils
+  * config
+  * controllers
+  * migrations
+  * models
+  * routes
+  * seeders
+  * utils
+* index.js
+* package-lock.json
+* package.json
+* README.md
+
+## ToDo ##
+
+- Add sample.env
+- Add testing framework like mocha & chai
+- Add simple endpoints to test everything that can be easily reused
